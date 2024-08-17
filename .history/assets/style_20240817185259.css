@@ -1,0 +1,17 @@
+body {
+    margin:;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+section {
+    flex-direction:column;
+    align-self:flex-start;
+    display: block;
+    vertical-align:super;
+}
+
+.sidebar {
+    align-items:right;
+    text-align:right;
+}

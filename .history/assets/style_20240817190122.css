@@ -11,8 +11,7 @@ header, footer {
 }
 
 main {
-    padding: 10px;
-    margin-left:30px;
+    padding: 20px;
 }
 
 .container {
@@ -24,12 +23,11 @@ main {
         "header header header header"
         "main main main sidebar"
         "footer footer footer sidebar";
-    gap: 10px;
+    gap: 20px;
 }
 
 header img {
     width:1400px;
-    margin-left:0;
     
 }
 
@@ -46,5 +44,5 @@ footer {
 }
 
 header, aside, main, footer {
-    padding: 5px;
+    padding: 20px;
 }

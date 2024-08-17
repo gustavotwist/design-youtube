@@ -11,8 +11,7 @@ header, footer {
 }
 
 main {
-    padding: 10px;
-    margin-left:30px;
+    padding: 20px;
 }
 
 .container {
@@ -22,14 +21,13 @@ main {
     grid-template-rows: auto 1fr auto;
     grid-template-areas: 
         "header header header header"
-        "main main main sidebar"
-        "footer footer footer sidebar";
+        "sidebar main main sidebar"
+        "sidebar footer footer sidebar";
     gap: 10px;
 }
 
 header img {
     width:1400px;
-    margin-left:0;
     
 }
 
@@ -46,5 +44,5 @@ footer {
 }
 
 header, aside, main, footer {
-    padding: 5px;
+    padding: 20px;
 }
